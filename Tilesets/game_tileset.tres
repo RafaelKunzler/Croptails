@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cnrawe5320qvh" path="res://scenes/houses/large_house.tscn" id="4_jojx4"]
 [ext_resource type="Texture2D" uid="uid://c3ag3mbb1txgi" path="res://assets/game/objects/Basic Grass Biom things 1.png" id="4_x0yyv"]
 [ext_resource type="PackedScene" uid="uid://cj6s05ikjao56" path="res://scenes/houses/small_house.tscn" id="5_kqwfu"]
-[ext_resource type="PackedScene" uid="uid://dptq54foxdf0e" path="res://scenes/objects/trees/small_tree.tscn" id="6_x0yyv"]
+[ext_resource type="PackedScene" uid="uid://dptq54foxdf0e" path="res://small_tree.tscn" id="6_x0yyv"]
 [ext_resource type="PackedScene" uid="uid://dpdet82a770pk" path="res://scenes/objects/trees/large_tree.tscn" id="7_15uw2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3tjwd"]
