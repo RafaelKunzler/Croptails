@@ -1,9 +1,11 @@
-[gd_resource type="TileSet" load_steps=9 format=3 uid="uid://bsne5kosolb15"]
+[gd_resource type="TileSet" load_steps=12 format=3 uid="uid://bsne5kosolb15"]
 
 [ext_resource type="Texture2D" uid="uid://bte5luj711xcx" path="res://assets/game/tilesets/Water.png" id="1_vep17"]
 [ext_resource type="Texture2D" uid="uid://cqeimr7gsy3yf" path="res://assets/game/tilesets/Grass.png" id="2_jojx4"]
 [ext_resource type="Texture2D" uid="uid://lu21s6vmqqtj" path="res://assets/game/tilesets/Tilled_Dirt_Wide.png" id="3_kqwfu"]
+[ext_resource type="PackedScene" uid="uid://cnrawe5320qvh" path="res://scenes/houses/large_house.tscn" id="4_jojx4"]
 [ext_resource type="Texture2D" uid="uid://c3ag3mbb1txgi" path="res://assets/game/objects/Basic Grass Biom things 1.png" id="4_x0yyv"]
+[ext_resource type="PackedScene" uid="uid://cj6s05ikjao56" path="res://scenes/houses/small_house.tscn" id="5_kqwfu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3tjwd"]
 texture = ExtResource("1_vep17")
@@ -445,6 +447,10 @@ texture = ExtResource("3_kqwfu")
 4:1/0/terrains_peering_bit/top_side = 1
 4:1/0/terrains_peering_bit/top_right_corner = 1
 
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_kqwfu"]
+scenes/2/scene = ExtResource("4_jojx4")
+scenes/3/scene = ExtResource("5_kqwfu")
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x0yyv"]
 texture = ExtResource("4_x0yyv")
 5:0/0 = 0
@@ -498,3 +504,4 @@ sources/0 = SubResource("TileSetAtlasSource_3tjwd")
 sources/1 = SubResource("TileSetAtlasSource_254on")
 sources/2 = SubResource("TileSetAtlasSource_kqwfu")
 sources/4 = SubResource("TileSetAtlasSource_x0yyv")
+sources/3 = SubResource("TileSetScenesCollectionSource_kqwfu")
